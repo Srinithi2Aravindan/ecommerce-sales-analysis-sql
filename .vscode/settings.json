@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "ep-bold-hall-azhf2f45-pooler.c-3.ap-southeast-1.aws.neon.tech",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Topfolio Ecommerce",
+            "database": "neondb",
+            "username": "ecom_ro_user"
+        }
+    ]
+}
